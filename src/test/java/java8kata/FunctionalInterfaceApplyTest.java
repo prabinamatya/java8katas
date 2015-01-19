@@ -4,10 +4,15 @@ import org.junit.Test;
 
 public class FunctionalInterfaceApplyTest {
 
+	FunctionalInterfaceApply testObject = new FunctionalInterfaceApply();
+
 	@Test
 	public void testApply() {
-		FunctionalInterfaceApply testObject = new FunctionalInterfaceApply();
 		testObject.apply();
 	}
 
+	@Test
+	public void testreferObjectMethods() throws Exception {
+		testObject.referObjectMethods();
+	}
 }
