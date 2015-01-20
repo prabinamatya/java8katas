@@ -16,4 +16,9 @@ public class StringComparator8Test {
 		testObject.compareStringAnonymousClass();
 	}
 
+	@Test
+	public void testMappingInJava8() throws Exception {
+		testObject.mappingInJava8();
+	}
+
 }
